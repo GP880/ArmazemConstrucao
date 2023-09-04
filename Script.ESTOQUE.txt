@@ -1,0 +1,56 @@
+
+
+
+
+TABELA ESTOQUE
+
+
+CREATE TABLE [dbo].[Estoque] (
+    [IdEstoque] INT IDENTITY (1, 1) NOT NULL,
+    [IdProd]    INT NOT NULL,
+    [Qtd]       INT NULL,
+    CONSTRAINT [IdEstoque] PRIMARY KEY CLUSTERED ([IdEstoque] ASC)
+);
+
+
+
+
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (1, 100)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (2, 151)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (3, 249)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (4, 321)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (5, 111)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (6, 231)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (7, 341)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (8, 341)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (9, 415)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (10, 714)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (11, 328)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (12, 338)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (13, 441)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (14, 661)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (15, 644)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (16, 550)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (17, 351)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (18, 341)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (19, 751)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (20, 561)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (21, 331)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (22, 637)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (23, 698)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (24, 186)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (25, 661)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (26, 781)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (27, 251)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (28, 167)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (29, 1700)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (30, 1679)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (31, 1342)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (32, 1344)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (33, 500)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (34, 781)
+INSERT INTO [dbo].[Estoque] ([IdProd], [Qtd]) VALUES (35, 351)
+
+
+
+

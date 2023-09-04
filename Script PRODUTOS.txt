@@ -1,0 +1,50 @@
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (1, 'Alicate', 'Josué Britas', 200, (32.50))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (2, 'Areia_Lavada', 'José Da Brita', 201, (180.00))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (3, 'Bloco de Pedra', 'José Da Brita', 202, (45.00))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (4, 'Broca para Concreto', 'José Da Brita', 203, (7.50))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (5, 'Capacete de Proteção', 'José Da Brita', 204,(29.99))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (6, 'Chave de Fenda', 'José Da Brita', 205, (18.50))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (7, 'Chave de Teste', 'José Da Brita', 206, (27.50))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (8, 'Chave Inglesa', 'José Da Brita', 207, (14.50))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (9, 'Cimento', 'José Da Brita', 208, (78.00))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (10, 'Escada de Madeira', 'José Da Brita', 209, (89.00))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (11, 'Fita Dupla Face', 'José Da Brita', 210, (3.75))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (12, 'Furadeira', 'José Da Brita', 211, (199.90))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (13, 'Lâmpada LED', 'José Da Brita', 212, (8.50))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (14, 'Lixa de Ferro', 'José Da Brita', 213, (2.25))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (15, 'Luvas de Proteção', 'José Da Brita', 214, (5.00))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (16, 'Máscara de Respiração', 'José Da Brita', 215, (4.75))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (17, 'Martelo de Borracha', 'José Da Brita', 216, (29.90))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (18, 'Nível a Laser', 'José Da Brita', 217, (129.90))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (19, 'Prego Grande', 'José Da Brita', 218, (2.50))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (20, 'Prego Pequenos', 'José Da Brita', 219, (1.50))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (21, 'Porta de Madeira', 'José Da Brita', 220, (130.00))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (22, 'Serrote', 'José Da Brita', 222, (65.00))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (23, 'Telha Ceramica', 'Fabio Compensado Naval', 223, (11.00))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (24, 'Tinta Acrílica', 'Fabio Compensado Naval', 224, (125.00))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (25, 'Serra Circular', 'Fabio Compensado Naval', 225, (159.00))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (26, 'Tábua de Madeira', 'Fabio Compensado Naval', 226, (42.00))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (27, 'Vassoura', 'Fabio Compensado Naval', 227, (12.00))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (28, 'Esponja de Limpeza', 'Fabio Compensado Naval', 873, (4.50))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (29, 'Rodo', 'Fabio Compensado Naval', 228, (8.99))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (30, 'Óculos de Sol', 'Fabio Compensado Naval', 229, (10.99))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (31, 'Pano de Limpeza', 'Fabio Compensado Naval', 230, (2.99))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (32, 'Protetor Auricular', 'Fabio Compensado Naval', 231, (8.50))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (33, 'Limpador Multiuso', 'Fabio Compensado Naval', 232, (7.50))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (34, 'Parafusadeira', 'Fabio Compensado Naval', 233, (159.90))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (35, 'Parafuso Sextavado 4mm', 'Fabio Compensado Naval', 234, (2.00))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (36, 'Escada Aluminio', 'Fabio Compensado Naval', 235, (299.90))
+INSERT INTO [dbo].[Produto] ([IdProd], [NomeProd], [NomeFanta], [CodProd], [Preco]) VALUES (37, 'Areia_Grossa', 'Fabio Compensado Naval', 236, (350.00))
+
+
+Josué Britas
+Compensado Naval
+Farncisco Materiais
+José Silva Madeiras
+
+
+
+
+
+
+

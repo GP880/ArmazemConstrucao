@@ -1,0 +1,221 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------------|
+PADRÕES COM INTERFACE GRÁFICA
+Trabalho Integrador
+-------------------------------------------------------------------------------------------------------------------------------------------------------|
+Orientações:
+A implementação de todo o projeto deve ser utilizando a linguagem de programação C#, no ambiente "Visual Studio" em suas versões disponíveis;
+O projeto deve ser realizado individualmente ou emgrupo de 2 alunos, onde no caso, todos  devem  colaborar  no  desenvolvimento e  apresentação. 
+	Mesmo  sendo  um trabalho em grupo, a avaliação será individual.
+	Trabalhos   iguais   ou   similares   serão   considerados   plágio   e   os  
+	integrantes   terão consideração de avaliação insatisfatório;
+O trabalho deve ser desenvolvido em sala de aula, conforme calendário da disciplina;
+Considerações pessoais devem ser aplicadas em forma de comentário no código fonte;
+
+Data para apresentação e entrega final: 18/07/2022
+
+Na apresentação final o grupo deve explanar as técnicas desenvolvidas.
+O  Código  Fonte  deverá  ser  enviado  via  plataforma  teams  para  o  professor  antes  da apresentação do grupo.
+
+------------------|
+A DEMANDA:
+------------------|
+Uma empresa de varejo deseja controlar suas vendas através de um sistema.
+Deseja-se então, um sistema similar a um PDV, capaz de realizar as seguintes funcionalidades:
+
+Gerenciamento de Produtos
+Gerenciamento de Colaboradores
+Gerenciamento de Vendas
+Gerenciamento de Estoque
+Gerenciamento de Fornecedores
+
+Gerenciamento de Contas a Pagar e a Receber
+Gerenciamento de Notificações
+Emissão de relatórios impressos e em tela
+	Vendas
+	Financeiro
+	Contas a Pagar
+	Contas a Receber
+	Produtos
+	Demais relatórios que se julgar necessário
+Quando se diz gerenciar, espera-se que o sistema seja capaz de fornecer funcionalidades para realizar o:
+Cadastro,
+Consulta,
+Alteração
+Exclusão dos dados em questão.
+
+O  sistema  deve  ser  capaz  de  realizar  o  controle  de  acesso  para "(3) três  usuários"  em específico,
+	ficando a critério dos desenvolvedores estabelecerem mais perfis, caso necessário.
+
+Espera-se que o sistema permita os seguintes perfis:
+
+Proprietário: terá acesso a todas as funcionalidades, sem restrições.
+----
+Gerente: será restrito  o  acesso  ao  módulo  financeiro,  ou  seja, 
+	 não  poderá consultar  as  "contas  a  pagar  e  a  receber"  da  empresa,
+	 mas,  terá  o  privilégio de  dar desconto em uma operação de venda.
+----
+Vendedor: terá  acesso  somente  ao  módulo  de  venda,  e  não  poderá  realizar alterações em valores e/ou quantidades vendidas.
+-------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+------------------|
+A TÉCNICA:
+------------------|
+
+Espera-se encontrar no projeto a aplicabilidade das seguintes técnicas e/ou conhecimentos:
+
+Estruturas e Conceitos de Orientação Objeto. *
+Arquitetura em Camadas – MVC. *
+Conexão com Banco de Dados externo (esperado). *
+Padrão de Projeto Singleton. *
+Padrão de Projeto Observer. 
+Padrões do Catálogo GRN:
+	Identificar Recurso
+	Quantificar Recurso
+	Armazenar Recurso.
+Desenvolvimento de TESTES de Unidade e Integração.
+-------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+------------------|
+AS ENTREGAS:
+------------------|
+
+-------------------------------------------------------|
+
+17/05/2023
+
+UML completa (Diagrama de Banco e de Classes) *
+Template do Projeto com Classe e Conexão à Banco *
+CRUD completo de Produtos *
+-------------------------------------------------------|
+
+24/05/2023
+
+CRUD completo de Colaboradores *
+CRUD completo de fornecedores *
+CRUD completo de estoque *
+-------------------------------------------------------|
+
+31/05/2023
+
+CRUD completo de Vendas
+Gestão de Acesso
+-------------------------------------------------------|
+
+05/06/2023
+
+CRUD completo de contas a pagar e a receber
+Gestão de notificações
+-------------------------------------------------------|
+
+12/06/2023
+
+Emissão de relatórios
+Testes de unidade e de integração
+-------------------------------------------------------|
+
+19/06/2023
+
+Apresentação do sistema
+-------------------------------------------------------|
+
+
+---------------------------------------------------------------------------------------------------------|
+SELECT V.IdVenda, V.CodProd, P.NomeProd, V.Qtd, V.ValUnit, V.ValTot, V.IdColab, V.Desconto, C.NomeColab
+FROM Venda V
+JOIN Colaborador C ON V.IdColab = C.IdColab
+JOIN Produto P ON V.CodProd = P.CodProd
+WHERE V.IdColab = 'seu_identificador_de_colaborador'
+
+---------------------------------------------------------------------------------------------------------|
+
+
+
+FEED BACK DO PROFESSOR LUCAS
+
+Cadastro de fornecedor
+- Máscara para campo CNPJ
+- 2 campos de contato? Especificar
+- Máscara para telefone
+- Validação de entrada do CPNJ (verificar se a combinação de números é válida)
+- Transportar poderia ser um double click no registro
+- bloquear edição dos campos no grid de informações
+- a alteração está inserindo um novo registro, deve ser alterado o registro através da PK do banco
+- Sugestão: deixar etapas de cadastro em tab´s
+
+ 
+
+
+Cadastro colaborador
+- Validação dos campos: email, nível de acesso (aceitando input com string)
+- Permite cadastrar mais de um colaborador com mesmo código e/ou email
+- Nível de acesso poderia ser um comboBox com as opções disponíveis
+- Sugestão: trabalhar com tabs para cadastro e outra para relatório
+
+ 
+
+Cadastro de produto
+- Inputs devem ser: Nome, Fornecedor, Código, Preço
+- Quantidade deve ser através do gerenciamento do estoque	**
+
+tem menu de contexto
+
+
+
+
+
+
+
+
+
+
+
+
+Cadastro de Contas a Pagar
+
+Fornecedor
+Conta a Pagar ou Receber
+
+Produtos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
